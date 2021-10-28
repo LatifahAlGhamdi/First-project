@@ -1,0 +1,286 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background-image: url("imgs/back.jpg");
+    /* background-position: center ;
+    background-size: cover; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 30px;
+} 
+
+ul{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none; 
+    background-color: #132A13;
+    opacity: 0.9;
+    padding-left: 10px;
+    margin-right: 20px;
+    max-width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+a{
+    color: white;
+    text-decoration: none; 
+    padding-right: 20px;
+   
+}
+a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+
+}
+video{
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* index.html */
+/*heading*/
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; 
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 20px;
+    gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.heading h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #132A13;
+    height: 100px;
+    
+}
+
+.heading h4{
+    color: #132A13;
+    font-size: 20px;
+}
+/* container */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+    background-color: #132A13;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-left: 140px;
+    margin-right: 78px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.container img {
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+/* button in index.html and content.html*/
+
+.btn{
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color:  #132A13;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    border-radius: 4px;
+    opacity: 0.9;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn:hover{
+    color: #132A13;
+    background-color: white;
+    opacity: 0.8;
+    border: 2px solid #132A13;
+}
+
+
+/* content */
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    max-width: 1100px;
+    gap: 50px;
+    padding-left: 20px;
+}
+.content img{
+   width: 300px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.card h2{
+    color: #132A13;
+}
+.card h5{
+    font-size: 15px;
+    color: #132A13;
+}
+
+
+/* button connectWithUs.html and login.html */
+.btn2{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color:  #132A13;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    border-radius: 4px;
+}
+
+.btn2:hover{
+    color: #132A13;
+    background-color: white;
+    border: 2px solid #132A13;
+}
+
+/* Who Are We */
+
+.WhoAreWe{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    gap: 40px;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.WhoAreWe h1{
+    background-color: #132A13;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.WhoAreWe h4{
+    background-color: #132A13;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+/* connect with us */
+
+.connectWithUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    max-width: 700px;
+    height: 600px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.connectWithUs input{
+    border-radius: 10px;
+    font-size: 18px;
+    height: 40px;
+    padding-left: 10px;
+    width: 495px;
+}
+.connectWithUs textarea{
+    border-radius: 10px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.connectWithUs a{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+
+/* Login */
+
+.login img{
+    width: 300px;
+    background-color: white;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.login a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
